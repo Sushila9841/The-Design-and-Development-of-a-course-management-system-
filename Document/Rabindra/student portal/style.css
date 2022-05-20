@@ -1,0 +1,556 @@
+body{
+ margin: 0px
+ !important
+
+}
+
+.logo{
+
+    width: 12%;
+    height: 12%;
+    margin-left: 88%;
+    top: 0%;
+    position: fixed;
+}
+
+nav {
+  display: flex;
+  float: right;
+  justify-content: right;
+ 
+}
+
+
+nav ul {
+    margin: 13px;
+
+  }
+
+/* Navigation links*/
+nav li {
+  display: inline-block;
+  padding: 7px;
+  padding-bottom: 1px;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  
+} 
+nav li:hover {
+  color: white;
+  margin: 0px;
+  width: 196px;
+ background-color: #33792F;
+}
+.admin-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #cff1cc;
+}
+.admin-sidebar {
+  top: -8px;
+  left: 0px;
+  width: 282px;
+  height: 760px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #97D32C;
+}
+.admin-nav {
+  left: 57px;
+  width: 165px;
+  bottom: 5px;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin-image {
+  top: -15px;
+  right: 13px;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  border-radius: 50%;
+}
+.admin-course {
+  top: 215px;
+  left: 0px;
+  margin-bottom: 5px;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.admin-grade {
+  top: 265px;
+  left: 0px;
+  margin-top: 5px;
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-calander {
+  top: 315px;
+  left: 0px;
+  margin-top: 5px;
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-tool{
+  top: 365px;
+  left: 0px;
+  bottom: 445px;
+  margin-top: 5px;
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-feedback {
+  top: 415px;
+  left: 0px;
+  margin-top: 5px;
+  bottom: 378px;
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-signout {
+  top: 465px;
+  left: 0px;
+  margin-top: 5px;
+  bottom: 321px;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.viewProfile {
+  top: 200px;
+  left: 100px;
+  position: absolute;
+}
+.viewProfile a{
+  color: black;
+
+}
+.administrator{
+  top: 190px;
+  left: 100px;
+  position: absolute;
+}
+@media(max-width: 767px) {
+  .admin-sidebar {
+    height: 70vh;
+  }
+}
+
+/* For Basic info form*/
+.Profile_image img{
+  left: 50%;
+  top: 2%;
+}
+.text_name h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+.Basic_info{
+  width: 450px;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+fieldset{
+  width: 900px;
+}
+.config{
+  padding-left: 20px;
+  color: red;
+}
+.try h2{
+  display:inline-block;
+}
+.try h3{
+  color: red;
+  display:inline-block;
+}
+
+/*Feedback Page*/
+/*Form*/
+
+.feedback_field{
+ 
+  width: 450px;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.info{
+  height: 50px;
+  border-radius: 40px;
+  width: 400px;
+
+}
+textarea{
+  height: 150px;
+  width:400px;
+}
+
+/*Tool Page*/
+
+.tool_box{
+
+
+  top: 55%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  display: flex;
+}
+.tool_list{
+   background-color: seagreen;
+  color:white;
+  border:1px solid black;
+  width: 310px;
+  margin: 15px;
+  height: 350px;
+  text-align: center;
+
+  
+}
+
+.tool_list img{
+  margin-top: 0px;
+  width: 313px;
+  height: 240px;
+}
+
+
+
+
+/*Calendar and Event Page*/
+
+.cal_box{
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+.cal_container{
+  position: relative;
+  width: 400px;
+  min-height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dycalendar{
+  width: 100%;
+  padding: 20px;
+}
+
+#dycalendar table{
+  width: 100%;
+  margin-top: 40px;
+  border-spacing: 5px;
+}
+#dycalendar table tr:nth-child(1) td{
+  background: #111;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600px;
+
+}
+
+#dycalendar table td:hover {
+  background: #111;
+  color: #fff !important;
+
+}
+
+#dycalendar table td{
+  color: #111;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.dycalendar-month-container .dycalendar-today-date, .dycalendar-month-container .dycalendar-target-date{
+  background: #111;
+  color: #fff !important;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn{
+  background: #111;
+  color: #fff;
+  width: 44px;
+  height: 38px;
+  left: 4px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn{
+  background: #111;
+  color: #fff;
+  width: 44px;
+  height: 38px;
+  right: 4px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.dycalendar-month-container .dycalendar-span-month-year{
+  color: #111;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/*For Grade Page*/
+
+.Wrapper{
+ 
+  width: 450px;
+  top: 30%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+.headerXXX{
+  width: 200px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color:black ;
+  text-align: center;
+  background: white;
+}
+.headerXXX h4{
+  color: black;
+  /*margin: 20px;*/
+  /*padding: 10px 0px;*/
+}
+
+.marks_topic h1{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+
+}
+
+/*For grade list*/
+
+.grade_box{
+ 
+  top: 65%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  display: flex;
+
+}
+
+.grade_list{
+ color:black;
+  border:2px solid black;
+  width: 310px;
+  margin: 15px;
+  height: 390px;
+  text-align: center;
+
+  
+}
+
+.grade_list img{
+  margin-top: 6px;
+  width: 250px;
+  height: 200px;
+}
+
+.grade_list button{
+  color:white;
+  padding:10px 25px;
+  background: black;
+  border:1px solid #FFF;
+  border-radius: 20px;
+  cursor:pointer;
+  margin-right: 15px;
+}
+.grade_list a{
+  color: #fff;
+  text-decoration: none;
+}
+button:hover{
+  background: purple;
+}
+
+
+/*For Grade2 Page*/
+
+.Vgrade_box{
+  width: 900px;
+  top: 59%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  border-style: solid;
+  border-radius: 20px;
+  border-color:black ;
+  background: white;
+}
+.Vgrade_topic{
+ margin: 20px;
+}
+
+.grade-contain li{
+    width: 60%;
+    margin-left: 0px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 62px;
+    margin-bottom: 5px;
+    list-style: none;
+    margin: 20px;
+  }
+
+.grade-contain-list li a{
+  color: black;
+  padding: 5%;
+}
+
+
+/*For Course1 main page*/
+
+.course_box{
+  width: 900px;
+  top: 59%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  border-style: solid;
+  border-radius: 20px;
+  border-color:black ;
+  background: white;
+}
+.course_topic{
+ margin: 20px;
+}
+.course_content{
+   display: flex;
+
+
+}
+
+.course_image img{
+  width: 250px;
+  height: 150px;
+  border-radius: 8%;
+  margin: 20px;
+
+}
+
+.course_image a{
+  color: black;
+}
+.course_content h5{
+  margin: 5%;
+  text-align: center;
+
+}
+/*For course2 page*/
+.course-contain{
+    width: 64%;
+    height: 57%;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-bottom:15px ;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.course-contain-list{
+   padding: 1%;
+    
+  }
+
+.course-contain li{
+    width: 98%;
+    margin-left: 0px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 62px;
+    margin-bottom: 5px;
+  }
+
+.course-contain-list li a{
+  color: black;
+  padding: 5%;
+}
+
+/*for search button*/
+.search-box{
+  position: absolute;
+  top: 13%;
+  left: 30%;
+  transform: translate(-50% , -50%);
+  background: #fff;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+.search-box1{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50% , -50%);
+  background: #fff;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+.search-btn{
+  color: black;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 240px;
+
+}
