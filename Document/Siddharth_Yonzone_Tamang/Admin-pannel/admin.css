@@ -1,0 +1,476 @@
+body{ margin: 0px;
+      position: fixed;
+      background-color:#cff1cc; 
+
+}
+/* Navigation links*/
+
+.logo{
+
+    width: 9%;
+    height: 9%;
+    margin-left: 91%;
+    position: fixed;
+}
+nav {
+  display: flex;
+  float: right;
+  justify-content: right;
+ color: black;
+}
+
+
+nav a {
+      margin-top: 0;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  
+}
+
+
+
+nav li {
+  display: inline-block;
+      padding: 7px;
+  
+} 
+nav a:hover{
+  color: white;
+}
+nav li:hover {
+  color: white;
+  margin: 0px;
+  width: 150px;
+ background-color: #33792F;
+}
+.admin-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #cff1cc;
+}
+.admin-sidebar {
+  top: -8px;
+  left: 0px;
+  width: 196px;
+  height: 624px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #97D32C;
+}
+.admin-nav {
+      margin-left: 32px;
+    margin-top: 14px;
+  left: 57px;
+  width: 165px;
+  bottom: 5px;
+  height: 90%;
+  display: flex;
+  
+  align-items: flex-start;
+  flex-direction: column;
+ 
+}
+.admin-image {
+  top: -15px;
+  right: 13px;
+      width: 100px;
+    height: 92px;
+  
+  border-radius: 50%;
+}
+.admin-home {
+  top: 215px;
+  left: 4px;
+      margin-top: 10px;
+  
+  text-align: left;
+  
+}
+.admin-course {
+  top: 265px;
+  left: 4px;
+ 
+  align-self: flex-start;
+  text-align: left;
+  transition: 0.3s;
+}
+.admin-student {
+  top: 315px;
+  left: 4px;
+  
+  align-self: flex-start;
+  text-align: left;
+  transition: 0.3s;
+}
+.admin-grade {
+  top: 365px;
+  left: 0px;
+  
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-message {
+  top: 415px;
+  left: 0px;
+  
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-calander {
+  top: 465px;
+  left: 0px;
+  bottom: 445px;
+  
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-attandance {
+  top: 515px;
+  left: 0px;
+  bottom: 445px;
+  
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-user {
+  top: 565px;
+  left: 0px;
+  bottom: 378px;
+  
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-faculty {
+  top: 615px;
+  left: 0px;
+  bottom: 321px;
+  
+  align-self: flex-start;
+  text-align: left;
+}
+.admin-logout {
+  top: 665px;
+  left: 0px;
+  bottom: 274px;
+  
+  align-self: flex-start;
+  text-align: left;
+}
+
+.viewProfile {
+  top: 129px;
+    left: 38px;
+  text-decoration: underline;
+}
+.administrator{
+  top: 106px;
+    left: 16px;
+    position: absolute;
+  
+}
+.staffid{
+      top: 148px;
+    font-size: 10px;
+    left: 39px;
+    position: absolute;
+  
+}
+
+/* HOME PAGE */
+/* BODY */
+.bodyC{
+    top: 233.24px;
+    position: fixed;
+    left: 33%;
+    font-size: 20px;
+    color: white;
+}
+.bodyG{
+    position: fixed;top: 233.24px;
+    
+    left: 58%;
+    font-size: 20px;
+    color: white;
+}
+.bodyM{
+    position: fixed;
+    top: 233.24px;
+    left: 84%;
+    font-size: 20px;
+    color: white;
+}
+.course-img{
+ width: 24%;
+    margin-bottom: 0%;
+    margin-left: 12%;
+    border: 4px solid #bdbdbd;
+    border-radius: 5%;
+}
+.grade-img{
+   width: 20%;
+    margin-left: 4%;
+    margin-right: 30%;
+    margin-bottom: 13%;
+    position: fixed;
+    border: 4px solid #bdbdbd;
+    border-radius: 5%;
+}
+.message-img{
+   width: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 13%;
+    position: fixed;
+    border: 4px solid #bdbdbd;
+    border-radius: 5%;
+}
+
+.content{
+  margin-top: 97px;
+}
+
+.body-link{
+      width: 71%;
+    height: 35%;
+    position: fixed;
+    margin-top: 25%;
+    margin-left: 26%;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.body-link li{
+      width: 98%;
+    margin-left: 0px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 62px;}
+
+.body-link li a{
+  color: black;
+}
+
+/* COURSE PAGE */
+/* BODY */
+
+
+button {
+  display: none; /* prevent being able to tab to it*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: var(--btn-width);
+  font-weight: bold;
+  background: var(--color-brand);
+  border-radius: 0 var(--rad) var(--rad) 0;
+}
+input:not(:placeholder-shown) {
+  border-radius: var(--rad) 0 0 var(--rad);
+  width: calc(100% - var(--btn-width));
+  + button {
+    display: block;
+  }
+}
+label {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.serch-box{
+  margin-left: 74%;
+    margin-top: 2%;
+    position: fixed;
+}
+
+.course-box{
+      width: 71%;
+    height: 82%;
+    position: fixed;
+    margin-top: 6%;
+    margin-left: 25%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3%;
+
+}
+
+.course-topic{
+  margin-left: 4%;
+}
+.course-topic h1{
+  margin-bottom: 0px;
+}
+.course-topic h3{
+  margin-top: 0px;
+}
+.course-topic h4{
+  margin-left: 10%;
+}
+
+.software-photo{
+  width: 20%;
+      margin-left: 49px;
+    border-radius: 8%;
+}
+/*.software-engneering a{
+      position: fixed;
+    top: 44%;
+    left: 33%;
+    color: white;
+}
+.computer-communication a{
+    position: fixed;
+    top: 44%;
+    left: 33%;
+    color: white;
+}*/
+.cc-photo{
+  width: 20%;
+      margin-left: 59px;
+    border-radius: 8%;
+}
+
+.courseS{
+        top: 314.24px;
+    position: fixed;
+    left: 33%;
+    font-size: 20px;
+    color: black;
+}
+.courseCC{
+    position: fixed; 
+    top: 319.24px;
+    
+    left: 48%;
+    font-size: 16px;
+    color: black;
+}
+.courseDb{
+   position: fixed;
+    top: 319.24px;
+    left: 72%;
+    font-size: 20px;
+    color: black; 
+}
+.database-photo{
+  width: 20%;
+      margin-left: 69px;
+    border-radius: 8%;
+}
+.networking-photo{
+  width: 20%;
+  margin-top: 4%;
+      margin-left: 49px;
+    border-radius: 8%;
+}
+.web-photo{
+  width: 20%;
+      margin-left: 59px;
+    border-radius: 8%;
+}
+.problem-photo{
+  width: 20%;
+      margin-left: 69px;
+    border-radius: 8%;
+}
+.courseN{
+   position: fixed;
+   top: 480.24px;
+    left: 33%;
+    font-size: 20px;
+    color: black; 
+}
+.courseW{
+   position: fixed;
+    top: 480.24px;
+    left: 48%;
+    font-size: 20px;
+    color: black; 
+}
+.coursePP{
+  position: fixed;
+  top: 484.24px;
+    left: 67%;
+    font-size: 15px;
+    color: black;
+}
+
+/* Course Second page */
+
+.course-contain{
+    width: 64%;
+    height: 57%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-left: 352px;
+    margin-top: 174.333;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.course-contain-list{
+   padding: 1%;
+    
+  }
+
+.course-contain li{
+      width: 98%;
+    margin-left: 0px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 62px;
+    margin-bottom: 5px;
+  }
+
+.course-contain-link li a{
+  color: black;
+  padding: 5%;
+}
+
+/* Page Indicator*/
+.page-indicator a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 53%;
+}
+
+.page-indicator a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.page-indicator{
+
+        margin-top: 313px;
+    margin-left: 624px;
+    position: fixed;
+}
+    
+.page-indicator-1{
+  margin-top: 529px;
+    margin-left: 1010px;
+    position: fixed;
+}
+    
+@media(max-width: 767px) {
+  .admin-sidebar {
+    height: 70vh;
+  }
+}

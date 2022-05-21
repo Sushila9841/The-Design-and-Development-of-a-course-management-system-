@@ -1,0 +1,111 @@
+body{
+  background-color: #D9D9D9;
+}
+nav {
+  display: flex;
+  float: right;
+  justify-content: right;
+ 
+}
+
+nav ul {
+    margin: 13px;
+  }
+
+/* Navigation links*/
+nav li {
+  display: inline-block;
+      padding: 12px;
+  
+}  
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.home-form {
+  top: 176px;
+  left: 195px;
+  width: 657px;
+  height: 629px;
+  position: absolute;
+  margin-left: 10%;
+  background-color: #cff1cc;
+}
+.password {
+  top: 283px;
+    left: 238px;
+  position: absolute;
+}
+.staff {
+      top: 179px;
+    left: 268px;
+  
+  position: absolute;
+}
+.user-name {
+      top: 250px;
+    left: 238px;
+  position: absolute;
+}
+.home-image {
+      top: 95px;
+    left: 275px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+  border-color: var(--dl-color-gray-black);
+  border-radius: 50%;
+}
+.logo {
+  top: 0px;
+  left: 0px;
+  width: 308px;
+  height: 171px;
+  position: absolute;
+  object-fit: cover;
+}
+.home-radiobutton {
+  top: 311px;
+    left: 234px;
+  width: 2%;
+  height: 2%;
+  position: absolute;
+  border-color: #000000;
+  border-width: 1px;
+  background-color: var(--dl-color-gray-black);
+}
+.home-radiobutton1 {
+  top: 311px;
+  left: 323px;
+  width: 2%;
+  height: 2%;
+  position: absolute;
+  border-color: #000000;
+  border-width: 1px;
+  background-color: var(--dl-color-gray-black);
+}
+.home-text2 {
+      top: 309px;
+    left: 257px;
+  position: absolute;
+}
+.home-text3 {
+  top: 309px;
+  left: 343px;
+  position: absolute;
+}
+.home-button {
+    top: 386px;
+    left: 288px;
+  position: absolute;
+}
+.home-button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
