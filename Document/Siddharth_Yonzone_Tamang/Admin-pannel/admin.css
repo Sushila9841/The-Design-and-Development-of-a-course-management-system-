@@ -444,6 +444,110 @@ label {
   padding: 5%;
 }
 
+
+/*Student 1*/
+.profile1-photo{
+  width: 10%;
+      margin-left: 59px;
+    border-radius: 8%;
+}
+
+.profile1{
+    top: 314.24px;
+    position: fixed;
+    left: 31%;
+    font-size: 18px;
+    color: black;
+}
+.profile2{
+   position: fixed;
+    top: 319.24px;
+    left: 43%;
+    font-size: 18px;
+    color: black;
+}
+.profile3{
+   position: fixed;
+    top: 319.24px;
+    left: 54%;
+    font-size: 18px;
+    color: black;
+}
+.profile2-photo{
+  width: 10%;
+      margin-left: 69px;
+    border-radius: 8%;
+}
+.profile3-photo{
+  width: 10%;
+  margin-top: 4%;
+      margin-left: 49px;
+    border-radius: 8%;
+}
+.profile4-photo{
+  width: 10%;
+      margin-left: 59px;
+    border-radius: 8%;
+}
+.profile5-photo{
+  width: 10%;
+      margin-left: 69px;
+    border-radius: 8%;
+}
+
+.profile4{
+    position: fixed;
+    top: 314.24px;
+    left: 67%;
+    font-size: 18px;
+    color: black;
+}
+.profile5{
+    position: fixed;
+    top: 319.24px;
+    left: 80%;
+    font-size: 18px;
+    color: black;
+}
+.row2{
+  margin-top: 3%;
+}
+.profile6{
+    top: 472.24px;
+    position: fixed;
+    left: 31%;
+    font-size: 18px;
+    color: black;
+}
+.profile7{
+   position: fixed;
+   top: 472.24px;
+    left: 43%;
+    font-size: 18px;
+    color: black;
+}
+.profile8{
+   position: fixed;
+    top: 472.24px;
+    left: 54%;
+    font-size: 18px;
+    color: black;
+}
+.profile9{
+    position: fixed;
+        top: 472.24px;
+    left: 67%;
+    font-size: 18px;
+    color: black;
+}
+.profile10{
+    position: fixed;
+        top: 472.24px;
+    left: 80%;
+    font-size: 18px;
+    color: black;
+}
+
 /* Page Indicator*/
 .page-indicator a {
   text-decoration: none;
