@@ -3,12 +3,13 @@
 		<head>
 			<title> Visit Page </title>
 			<!-- CSS file -->
-			<link href="design.css" rel="stylesheet" type="text/css">
+			<link href="maindesign.css" rel="stylesheet" type="text/css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</head>
 
 			<body>
 
-				<img class="logo" src="logo.png" alt="Logo of Woodland University College">
+				<a href="main.html"><img class="logo" src="logo.png" alt="Logo of Woodland University College"></a>
 
 				<nav>
 
@@ -32,20 +33,7 @@
 					<div class="secondnav">
 
 					<ul>
-						<li><a href="home.html">Home</a></li>
-						<li><a href="course.html">Course</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="events.html">Events</a></li>
-						<li><a href="apply.html">Apply</a></li>
-						<li><a href="visit.html">Visit</a></li>
-						<li><a href="#">LogIn</a>
-							<div class="sub">
-								<ul>
-									<li><a href="student.html">Student</a></li>
-									<li><a href="staff.html">Staff</a></li>
-								</ul>
-							</div>
-						</li>
+						<li><a href="main.html">Home</a></li>
 					</ul>
 
 					</div>
@@ -71,34 +59,35 @@
          					 <p>Full Name</p>
 
         					 	<div class="name-item">
-         					  	 <input type="text" name="First" placeholder="First" required="required">
-        					  	 <input type="text" name="Last" placeholder="Last" required="required">
+         					  	 <input type="text" name="first" placeholder="First Name" size="10" required="required">
+         					  	 <input type="text" name="last" placeholder="Last Name" size="10" required="required">
           						</div>
 
        						</div>
 
-        					<div class="visitor">
+       						<div class="visitor">
+          						<p>Address</p>
+          						<input type="text" name="name" placeholder="Street address" size="40" required="required">
+          					</div>
+          					<div class="visitor">
+          						<p>Email</p>
+          						<input type="email" name="email" required="required" placeholder="Email address" multiple >
+          					</div>
+          					<div class="visitor">
+          						<p>Phone Number</p>
+        						<input type="tel" name="name" required="required" maxlength="13" placeholder="Contact no.">
+        					</div>
 
-         					<p>Birth Date</p>
-          						<input type="date" name="bdate" required/>
+          					<div class="visitor">
+        						<div class="dates">
+         							<p>Date of visit</p>
+          							<input type="date" name="visitdate" required="required">
+          						</div>
+          					</div>
 
-							</div>
-
-							<div class="visitor">
-
+          					<div class="visitor">
           						<p>Your porpose of visit</p>
           						<textarea rows="3"></textarea>
-
-       						</div>
-
-       						<div class="visitor">
-
-          						<p>Phone</p>
-        						<input type="text" name="name" required="required">
-          						<p>Email</p>
-          						<input type="text" name="name" required="required">
-          						<p>Address</p>
-          						<input type="text" name="name" placeholder="Street address" required="required">
           					</div>
 
           					<div class="btn">
@@ -111,8 +100,7 @@
 				<footer>
 
 					<div class="down">
-						<b>Lorem ipsum:</b>
-						<p>"Dolor sit amet, consectetur adipiscing elit. Morbi quis massa quis augue accumsan accumsan. Proin sed erat et libero venenatis commodo ut vitae lectus."</p>
+						<b>Belive, belong, become.</b>
 					</div>
 
 					<div class="aside">
